@@ -10,8 +10,8 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Page ready");
- 	// initCamera();
- 	// initMap();
+ 	initCamera();
+ 	initMap();
  	initGestures();
  	initRSVPForm();
 }
